@@ -1,0 +1,5 @@
+theme = "academic"
+baseURL = "https://ericmckinney.net/"
+languageCode = "en-us"
+title = "Eric McKinney"
+ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
