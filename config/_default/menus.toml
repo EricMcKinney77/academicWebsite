@@ -10,13 +10,13 @@
 
 [[main]]
   name = "Publications"
-  url = "#publications_featured"
+  url = "#publications"
   weight = 2
 
-[[main]]
-  name = "Projects"
-  url = "#projects"
-  weight = 3
+# [[main]]
+#  name = "Projects"
+#  url = "#projects"
+#  weight = 3
 
 [[main]]
   name = "Posts"

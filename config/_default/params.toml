@@ -112,7 +112,8 @@ publication_types = [
   'Manuscript',  # 3
   'Report',  # 4
   'Book',  # 5
-  'Book section'  # 6
+  'Book section',  # 6
+  'Masters Thesis' # 7
 ]
 
 # Align the main menu to the right of the page? (true/false)
