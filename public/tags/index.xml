@@ -38,5 +38,32 @@
       <description></description>
     </item>
     
+    <item>
+      <title>EyeTrackR</title>
+      <link>/tags/eyetrackr/</link>
+      <pubDate>Fri, 09 Nov 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/eyetrackr/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Image Processing</title>
+      <link>/tags/image-processing/</link>
+      <pubDate>Fri, 09 Nov 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/image-processing/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>R</title>
+      <link>/tags/r/</link>
+      <pubDate>Fri, 09 Nov 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/r/</guid>
+      <description></description>
+    </item>
+    
   </channel>
 </rss>

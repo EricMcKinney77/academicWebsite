@@ -10,5 +10,14 @@
 	<atom:link href="/categories/index.xml" rel="self" type="application/rss+xml" />
     
     
+    <item>
+      <title>Eye-Tracking</title>
+      <link>/categories/eye-tracking/</link>
+      <pubDate>Fri, 09 Nov 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/categories/eye-tracking/</guid>
+      <description></description>
+    </item>
+    
   </channel>
 </rss>

@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>1 on Eric McKinney</title>
-    <link>/publication_types/1/</link>
-    <description>Recent content in 1 on Eric McKinney</description>
+    <title>R on Eric McKinney</title>
+    <link>/tags/r/</link>
+    <description>Recent content in R on Eric McKinney</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Fri, 09 Nov 2018 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="/publication_types/1/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="/tags/r/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
