@@ -1,27 +1,22 @@
 ---
-title: 'Eye-Tracking in Practice: The EyeTrackR R Package and its Use in a Study on
-  Human Postures'
+title: 'Eye-Tracking in Practice: A first Analysis of a Study on Human Postures'
 author:
   - Jürgen Symanzik
   - Chunyang Li
-  - Breanna Studenka
   - Boyu Zhang
+  - Breanna Studenka
   - Eric McKinney
-  - Brennan Bean
-  - Melanie Athens
-  - Madison Hansen
-date: '2018-11-09'
-slug: eye-tracking-in-practice-the-eyetrackr-r-package-and-its-use-in-a-study-on-human-postures
+date: '2017-08-02'
+slug: eye-tracking-in-practice-a-first-analysis-of-a-study-on-human-postures
 categories:
   - Eye-Tracking
 tags:
-  - R
-  - EyeTrackR
   - Image Processing
+  - R
 image:
   caption: ''
   focal_point: ''
-
+  
 # Featured image
 # To use, add an image named `featured.jpg/png` to your page's folder. 
 # image:
@@ -44,18 +39,18 @@ draft: false
 # 4: Report
 # 5: Book
 # 6: Book section
-# 7: Masters thesis
+# 7: Masters Thesis
 # 8: Conference presentation
 publication_types: ["8"]
 
 # Publication name and optional abbreviated version.
-publication: "In *Institute of Statistical Science, Academia Sinica (ISSAS)*"
-publication_short: "In *ISSAS*"
+publication: "In *2017 Joint Statistical Meetings (JSM)*"
+publication_short: "In *JSM*"
 
 # Abstract and optional shortened version.
-abstract: ""
+abstract: "In this article, we present our first results of a study that tries to determine where people are looking when ranking the stability of an actor holding certain postures. A mobile eye-tracker is used to record the original video data of people looking at human postures. Image processing methods are employed to extract statistical information from the video data. The statistical analyses are based on visualization and machine learning approaches."
 
-abstract_short: ""
+abstract_short: "In this article, we present our first results of a study that tries to determine where people are looking when ranking the stability of an actor holding certain postures. A mobile eye-tracker is used to record the original video data of people looking at human postures. Image processing methods are employed to extract statistical information from the video data. The statistical analyses are based on visualization and machine learning approaches."
 
 # Is this a featured publication? (true/false)
 featured: false
@@ -88,6 +83,3 @@ doi: ""
 # Does this page contain LaTeX math? (true/false)
 math: true
 ---
-
-A presentation by Dr. Jürgen Symanzik presented to the Institute of Statistical Science, Academia
-Sinica, during 2018 Statistics Week in Taipei, Taiwan. More details to come.

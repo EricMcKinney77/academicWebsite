@@ -15,6 +15,8 @@ authors = [""]
 # 4 = Report
 # 5 = Book
 # 6 = Book section
+# 7 = Masters thesis
+# 8 = Conference presentation
 publication_types = ["0"]
 
 # Publication name and optional abbreviated version.
