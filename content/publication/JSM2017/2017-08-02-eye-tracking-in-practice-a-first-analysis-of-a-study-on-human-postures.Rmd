@@ -64,12 +64,12 @@ featured: false
 projects: []
 
 # Links (optional).
-url_pdf: "https://ww2.amstat.org/cgi-bin/fileviewer.cfm?filename=jsm2017presentations%5CCC%2D347%5C20170802%2DWednesday%5C1030%2DEDT%5CJurgen%2DSymanzik%2D9626%5C214412%2E0%2D51933%2DJurgen%2DSymanzik%2Epdf&Outputfile=324773&0.410324651303"
+url_pdf: "/pdf/JSM_2017.pdf"
 url_preprint: ""
 url_code: ""
 url_dataset: ""
 url_project: ""
-url_slides: ""
+url_slides: "https://ww2.amstat.org/cgi-bin/fileviewer.cfm?filename=jsm2017presentations%5CCC%2D347%5C20170802%2DWednesday%5C1030%2DEDT%5CJurgen%2DSymanzik%2D9626%5C214412%2E0%2D51933%2DJurgen%2DSymanzik%2Epdf&Outputfile=324773&0.410324651303"
 url_video: ""
 url_poster: ""
 url_source: ""
