@@ -15,7 +15,7 @@ weight = 60
 
 +++
 
-I have taught the following courses at Utah State University:
+I have taught the following courses at [**Utah State University**](https://www.usu.edu/):
 
 - STAT 5810 (TA): Introduction to R Programming 
 - MATH 1210: Calculus 1

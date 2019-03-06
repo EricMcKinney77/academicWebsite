@@ -120,6 +120,16 @@
     </item>
     
     <item>
+      <title>Custom</title>
+      <link>/home/custom/</link>
+      <pubDate>Wed, 20 Apr 2016 00:00:00 -0600</pubDate>
+      
+      <guid>/home/custom/</guid>
+      <description>This is where I can put custom info.
+ STAT 5810 (TA): Introduction to R Programming MATH 1210: Calculus 1 MATH 1060: Trigonometry STAT 3000 Online: Statistics for Scientists STAT 2300 Online: Business Statistics STAT 2300 (10 recitations): Business Statistics MATH 1050 (3 recitations): College Algebra STAT 1040 (3 recitations): Introduction to Statistics  </description>
+    </item>
+    
+    <item>
       <title>Teaching</title>
       <link>/home/teaching/</link>
       <pubDate>Wed, 20 Apr 2016 00:00:00 -0600</pubDate>
