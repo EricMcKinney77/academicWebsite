@@ -1,0 +1,15 @@
+---
+title: Binomial Distribution Applet
+author: Eric McKinney
+date: '2019-09-04'
+slug: binomial-distribution-applet
+categories: []
+tags: []
+image:
+  caption: ''
+  focal_point: ''
+---
+
+This applet allows the user to specify the parameters of a binomial distribution, and calculate the probability of a specific outcome.
+
+<iframe scrolling="no" title="Binomial Distribution" src="https://www.geogebra.org/material/iframe/id/hzj6dqmc/width/1056/height/533/border/888888/sfsb/true/smb/false/stb/false/stbh/false/ai/false/asb/false/sri/true/rc/false/ld/false/sdz/false/ctl/false" width="1056px" height="533px" style="border:0px;"> </iframe>
