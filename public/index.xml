@@ -24,6 +24,21 @@
     </item>
     
     <item>
+      <title>Histogram Applet</title>
+      <link>/post/histogram-applet/</link>
+      <pubDate>Wed, 04 Sep 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/post/histogram-applet/</guid>
+      <description>
+
+
+&lt;p&gt;This is an applet that allows the user to adjust the bin width of a histogram.&lt;/p&gt;
+&lt;iframe scrolling=&#34;no&#34; title=&#34;Histogram with adjustable bin width.&#34; src=&#34;https://www.geogebra.org/material/iframe/id/kvtbsyze/width/930/height/474/border/888888/sfsb/true/smb/false/stb/false/stbh/false/ai/false/asb/false/sri/true/rc/false/ld/false/sdz/false/ctl/false&#34; width=&#34;930px&#34; height=&#34;474px&#34; style=&#34;border:0px;&#34;&gt;
+&lt;/iframe&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Prediction of Stress Increase at Ultimate in Unbonded Tendons Using Sparse Principal Component Analysis</title>
       <link>/publication/mckinney2019/prediction-of-stress-increase-at-ultimate-in-unbonded-tendons-using-sparse-principal-component-analysis/</link>
       <pubDate>Wed, 06 Mar 2019 00:00:00 +0000</pubDate>
