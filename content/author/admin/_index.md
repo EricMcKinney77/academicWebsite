@@ -13,7 +13,8 @@ role = "PhD Student in Statistics"
 organizations = [ { name = "Utah State University", url = "https://www.usu.edu/" } ]
 
 # Short bio (displayed in user profile at end of posts)
-bio = "My research interests include eye-tracking, spatial statistics, and visualizations."
+# bio = "My research interests include eye-tracking, spatial statistics, and visualizations."
+bio = ""
 
 # Enter email to display Gravatar (if Gravatar enabled in Config)
 email = ""

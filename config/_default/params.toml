@@ -31,7 +31,7 @@ date_format = "Jan 2, 2006"
 time_format = "3:04 PM"
 
 # Show estimated reading time for posts?
-reading_time = true
+reading_time = false
 
 # Display comment count? Requires commenting to be enabled.
 comment_count = true
@@ -145,7 +145,7 @@ custom_js  = []
   #   0 = Simple
   #   1 = Detailed
   #   2 = Stream
-  post_format = 2
+  post_format = 0
 
   # Publication list format.
   #   0 = Simple
