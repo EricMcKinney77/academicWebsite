@@ -17,6 +17,7 @@ weight = 60
 
 I have taught the following courses at [**Utah State University**](https://www.usu.edu/):
 
+- STAT 2300 Large Lecture (175 students): Business Statistics
 - STAT 5810 (TA): Introduction to R Programming 
 - MATH 1210: Calculus 1
 - MATH 1060: Trigonometry
