@@ -9,3 +9,7 @@ image:
   caption: ''
   focal_point: ''
 ---
+
+Hello World! This is my first post. A big shout out to [**Netlify**](https://www.netlify.com/) for making this possible. Thank you!
+
+![](/post/2019-09-04-hello-world_files/Netlify.png)
