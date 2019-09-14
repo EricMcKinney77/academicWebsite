@@ -4,6 +4,14 @@
     
     <url>
     
+      <loc>/project/2018-data-expo-r-shiny-app/2018-data-expo-r-shiny-app/</loc>
+      <lastmod>2019-09-14T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    <url>
+    
       <loc>/post/binomial-distribution-applet/</loc>
       <lastmod>2019-09-04T00:00:00+00:00</lastmod>
     </url>
@@ -116,22 +124,6 @@
     
     <url>
     
-      <loc>/project/external-project/</loc>
-      <lastmod>2016-04-27T00:00:00-06:00</lastmod>
-    </url>
-    
-  
-    
-    <url>
-    
-      <loc>/project/internal-project/</loc>
-      <lastmod>2016-04-27T00:00:00-06:00</lastmod>
-    </url>
-    
-  
-    
-    <url>
-    
       <loc>/author/admin/</loc>
     </url>
     
@@ -181,24 +173,6 @@
     
     <url>
     
-      <loc>/tags/deep-learning/</loc>
-      <lastmod>2016-04-27T00:00:00-06:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    <url>
-    
-      <loc>/tags/demo/</loc>
-      <lastmod>2016-04-27T00:00:00-06:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    <url>
-    
       <loc>/</loc>
       <lastmod>2017-10-15T00:00:00-06:00</lastmod>
       <priority>0</priority>
@@ -236,7 +210,7 @@
     <url>
     
       <loc>/project/</loc>
-      <lastmod>2016-04-27T00:00:00-06:00</lastmod>
+      <lastmod>2019-09-14T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -262,6 +236,15 @@
     
     <url>
     
+      <loc>/tags/r-shiny/</loc>
+      <lastmod>2019-09-14T00:00:00+00:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    <url>
+    
       <loc>/slides/</loc>
       <priority>0</priority>
     </url>
@@ -278,7 +261,7 @@
     <url>
     
       <loc>/tags/</loc>
-      <lastmod>2016-04-27T00:00:00-06:00</lastmod>
+      <lastmod>2018-11-09T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
     
