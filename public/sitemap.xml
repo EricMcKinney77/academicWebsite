@@ -12,7 +12,7 @@
     
     <url>
     
-      <loc>/post/hello-world/</loc>
+      <loc>/post/histogram-applet/</loc>
       <lastmod>2019-09-04T00:00:00+00:00</lastmod>
     </url>
     
@@ -20,8 +20,8 @@
     
     <url>
     
-      <loc>/post/histogram-applet/</loc>
-      <lastmod>2019-09-04T00:00:00+00:00</lastmod>
+      <loc>/post/hello-world/</loc>
+      <lastmod>2019-09-03T00:00:00+00:00</lastmod>
     </url>
     
   
@@ -132,14 +132,6 @@
     
     <url>
     
-      <loc>/post/getting-started/</loc>
-      <lastmod>2019-01-23T00:00:00-07:00</lastmod>
-    </url>
-    
-  
-    
-    <url>
-    
       <loc>/author/admin/</loc>
     </url>
     
@@ -158,15 +150,6 @@
     
       <loc>/publication_types/8/</loc>
       <lastmod>2018-11-09T00:00:00+00:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    <url>
-    
-      <loc>/tags/academic/</loc>
-      <lastmod>2019-01-23T00:00:00-07:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -218,15 +201,6 @@
     
       <loc>/</loc>
       <lastmod>2017-10-15T00:00:00-06:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    <url>
-    
-      <loc>/authors/eric-mckinney/</loc>
-      <lastmod>2019-01-23T00:00:00-07:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -304,7 +278,7 @@
     <url>
     
       <loc>/tags/</loc>
-      <lastmod>2019-01-23T00:00:00-07:00</lastmod>
+      <lastmod>2016-04-27T00:00:00-06:00</lastmod>
       <priority>0</priority>
     </url>
     

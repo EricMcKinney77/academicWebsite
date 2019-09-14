@@ -22,15 +22,6 @@
     </item>
     
     <item>
-      <title>Hello World!</title>
-      <link>/post/hello-world/</link>
-      <pubDate>Wed, 04 Sep 2019 00:00:00 +0000</pubDate>
-      
-      <guid>/post/hello-world/</guid>
-      <description>Hello World! This is my first post. A big shout out to Netlify for making this possible. Thank you!</description>
-    </item>
-    
-    <item>
       <title>Histogram Applet</title>
       <link>/post/histogram-applet/</link>
       <pubDate>Wed, 04 Sep 2019 00:00:00 +0000</pubDate>
@@ -41,14 +32,13 @@
     </item>
     
     <item>
-      <title>Getting started with Academic</title>
-      <link>/post/getting-started/</link>
-      <pubDate>Wed, 20 Apr 2016 00:00:00 -0600</pubDate>
+      <title>Hello World!</title>
+      <link>/post/hello-world/</link>
+      <pubDate>Tue, 03 Sep 2019 00:00:00 +0000</pubDate>
       
-      <guid>/post/getting-started/</guid>
-      <description>This post, created by the Academic template&amp;rsquo;s author George Cushen, is an excellent reference for starting and maintaining your own Academic website.
-Academic makes it easy to create a beautiful website for free using Markdown. Customize anything on your site with widgets, themes, and language packs.
-Follow our easy step by step guide to learn how to build your own free website with Academic. Check out the personal demo or the business demo of what you&amp;rsquo;ll get in less than 10 minutes.</description>
+      <guid>/post/hello-world/</guid>
+      <description>Hello World! This is my first post. A big shout out to Netlify for hosting this website. Thank you!
+Also a big thank you to the HUGO Academic theme template author George Cushen.</description>
     </item>
     
   </channel>

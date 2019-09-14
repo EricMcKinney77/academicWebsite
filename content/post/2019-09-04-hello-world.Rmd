@@ -1,15 +1,19 @@
 ---
 title: Hello World!
 author: Eric McKinney
-date: '2019-09-04'
+date: '2019-09-03'
 slug: hello-world
 categories: []
 tags: []
 image:
   caption: ''
   focal_point: ''
+editor_options: 
+  chunk_output_type: console
 ---
 
-Hello World! This is my first post. A big shout out to [**Netlify**](https://www.netlify.com/) for making this possible. Thank you!
+Hello World! This is my first post. A big shout out to [**Netlify**](https://www.netlify.com/) for hosting this website. Thank you!
 
-![](/post/2019-09-04-hello-world_files/Netlify.png)
+![](/post/2019-09-03-hello-world_files/Netlify.png)
+
+Also a big thank you to the [**HUGO**](https://gohugo.io/) Academic theme template author [George Cushen](https://georgecushen.com).
