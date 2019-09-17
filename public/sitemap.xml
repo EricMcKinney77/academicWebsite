@@ -4,6 +4,14 @@
     
     <url>
     
+      <loc>/post/law-of-large-numbers-applet/</loc>
+      <lastmod>2019-09-17T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    <url>
+    
       <loc>/project/2018-data-expo-r-shiny-app/2018-data-expo-r-shiny-app/</loc>
       <lastmod>2019-09-14T00:00:00+00:00</lastmod>
     </url>
@@ -200,6 +208,15 @@
     
     <url>
     
+      <loc>/tags/geogebra/</loc>
+      <lastmod>2019-09-17T00:00:00+00:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    <url>
+    
       <loc>/tags/image-processing/</loc>
       <lastmod>2018-11-09T00:00:00+00:00</lastmod>
       <priority>0</priority>
@@ -262,6 +279,15 @@
     
       <loc>/tags/</loc>
       <lastmod>2018-11-09T00:00:00+00:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    <url>
+    
+      <loc>/categories/teaching/</loc>
+      <lastmod>2019-09-17T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
     
