@@ -12,41 +12,11 @@
     
     
     <item>
-      <title>Law of Large Numbers Applet</title>
-      <link>/post/law-of-large-numbers-applet/</link>
-      <pubDate>Tue, 17 Sep 2019 00:00:00 +0000</pubDate>
-      
-      <guid>/post/law-of-large-numbers-applet/</guid>
-      <description>This applet shows the proportion (relative frequency) of heads when flipping a fair coin. As the number of coins increases the long term relative frequency will approach 0.5 (the expected value).
-</description>
-    </item>
-    
-    <item>
-      <title>Binomial Distribution Applet</title>
-      <link>/post/binomial-distribution-applet/</link>
-      <pubDate>Wed, 04 Sep 2019 00:00:00 +0000</pubDate>
-      
-      <guid>/post/binomial-distribution-applet/</guid>
-      <description>This applet allows the user to specify the parameters of a binomial distribution, and calculate the probability of a specific outcome.
-</description>
-    </item>
-    
-    <item>
-      <title>Histogram Applet</title>
-      <link>/post/histogram-applet/</link>
-      <pubDate>Wed, 04 Sep 2019 00:00:00 +0000</pubDate>
-      
-      <guid>/post/histogram-applet/</guid>
-      <description>This is an applet that allows the user to adjust the bin width of a histogram.
-</description>
-    </item>
-    
-    <item>
       <title>Hello World!</title>
-      <link>/post/hello-world/</link>
+      <link>/post/hello-world/hello-world/</link>
       <pubDate>Tue, 03 Sep 2019 00:00:00 +0000</pubDate>
       
-      <guid>/post/hello-world/</guid>
+      <guid>/post/hello-world/hello-world/</guid>
       <description>Hello World! This is my first post. A big shout out to Netlify for hosting this website. Thank you!
 Also a big thank you to the HUGO Academic theme template author George Cushen.</description>
     </item>

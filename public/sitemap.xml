@@ -4,7 +4,15 @@
     
     <url>
     
-      <loc>/post/law-of-large-numbers-applet/</loc>
+      <loc>/project/normal-distribution/normal-distribution/</loc>
+      <lastmod>2019-10-16T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    <url>
+    
+      <loc>/project/law-of-large-numbers-applet/law-of-large-numbers-applet/</loc>
       <lastmod>2019-09-17T00:00:00+00:00</lastmod>
     </url>
     
@@ -20,7 +28,7 @@
     
     <url>
     
-      <loc>/post/binomial-distribution-applet/</loc>
+      <loc>/project/binomial-distribution-applet/binomial-distribution-applet/</loc>
       <lastmod>2019-09-04T00:00:00+00:00</lastmod>
     </url>
     
@@ -28,7 +36,7 @@
     
     <url>
     
-      <loc>/post/histogram-applet/</loc>
+      <loc>/project/histogram-applet/histogram-applet/</loc>
       <lastmod>2019-09-04T00:00:00+00:00</lastmod>
     </url>
     
@@ -36,7 +44,7 @@
     
     <url>
     
-      <loc>/post/hello-world/</loc>
+      <loc>/post/hello-world/hello-world/</loc>
       <lastmod>2019-09-03T00:00:00+00:00</lastmod>
     </url>
     
@@ -209,7 +217,7 @@
     <url>
     
       <loc>/tags/geogebra/</loc>
-      <lastmod>2019-09-17T00:00:00+00:00</lastmod>
+      <lastmod>2019-10-16T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -227,7 +235,7 @@
     <url>
     
       <loc>/project/</loc>
-      <lastmod>2019-09-14T00:00:00+00:00</lastmod>
+      <lastmod>2019-10-16T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -287,7 +295,7 @@
     <url>
     
       <loc>/categories/teaching/</loc>
-      <lastmod>2019-09-17T00:00:00+00:00</lastmod>
+      <lastmod>2019-10-16T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
     

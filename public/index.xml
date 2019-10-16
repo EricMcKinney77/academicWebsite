@@ -10,11 +10,26 @@
     <atom:link href="/" rel="self" type="application/rss+xml" />
     
     <item>
+      <title>Normal Distribution Applet</title>
+      <link>/project/normal-distribution/normal-distribution/</link>
+      <pubDate>Wed, 16 Oct 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/project/normal-distribution/normal-distribution/</guid>
+      <description>
+
+
+&lt;p&gt;This applet allows the user to adjust the mean and standard deviation of a normal distribution. You may also calculate probabilities between two adjustable points.&lt;/p&gt;
+&lt;iframe scrolling=&#34;no&#34; title=&#34;Normal Distribution&#34; src=&#34;https://www.geogebra.org/material/iframe/id/zrbwz8te/width/800/height/588/border/888888/sfsb/true/smb/false/stb/false/stbh/false/ai/false/asb/false/sri/true/rc/false/ld/false/sdz/true/ctl/false&#34; width=&#34;800px&#34; height=&#34;588px&#34; style=&#34;border:0px;&#34; allowfullscreen&gt;
+&lt;/iframe&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Law of Large Numbers Applet</title>
-      <link>/post/law-of-large-numbers-applet/</link>
+      <link>/project/law-of-large-numbers-applet/law-of-large-numbers-applet/</link>
       <pubDate>Tue, 17 Sep 2019 00:00:00 +0000</pubDate>
       
-      <guid>/post/law-of-large-numbers-applet/</guid>
+      <guid>/project/law-of-large-numbers-applet/law-of-large-numbers-applet/</guid>
       <description>
 
 
@@ -41,10 +56,10 @@
     
     <item>
       <title>Binomial Distribution Applet</title>
-      <link>/post/binomial-distribution-applet/</link>
+      <link>/project/binomial-distribution-applet/binomial-distribution-applet/</link>
       <pubDate>Wed, 04 Sep 2019 00:00:00 +0000</pubDate>
       
-      <guid>/post/binomial-distribution-applet/</guid>
+      <guid>/project/binomial-distribution-applet/binomial-distribution-applet/</guid>
       <description>
 
 
@@ -56,10 +71,10 @@
     
     <item>
       <title>Histogram Applet</title>
-      <link>/post/histogram-applet/</link>
+      <link>/project/histogram-applet/histogram-applet/</link>
       <pubDate>Wed, 04 Sep 2019 00:00:00 +0000</pubDate>
       
-      <guid>/post/histogram-applet/</guid>
+      <guid>/project/histogram-applet/histogram-applet/</guid>
       <description>
 
 
@@ -71,15 +86,15 @@
     
     <item>
       <title>Hello World!</title>
-      <link>/post/hello-world/</link>
+      <link>/post/hello-world/hello-world/</link>
       <pubDate>Tue, 03 Sep 2019 00:00:00 +0000</pubDate>
       
-      <guid>/post/hello-world/</guid>
+      <guid>/post/hello-world/hello-world/</guid>
       <description>
 
 
 &lt;p&gt;Hello World! This is my first post. A big shout out to &lt;a href=&#34;https://www.netlify.com/&#34;&gt;&lt;strong&gt;Netlify&lt;/strong&gt;&lt;/a&gt; for hosting this website. Thank you!&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;/post/2019-09-03-hello-world_files/Netlify.png&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;Netlify.png&#34; /&gt;&lt;/p&gt;
 &lt;p&gt;Also a big thank you to the &lt;a href=&#34;https://gohugo.io/&#34;&gt;&lt;strong&gt;HUGO&lt;/strong&gt;&lt;/a&gt; Academic theme template author &lt;a href=&#34;https://georgecushen.com&#34;&gt;George Cushen&lt;/a&gt;.&lt;/p&gt;
 </description>
     </item>

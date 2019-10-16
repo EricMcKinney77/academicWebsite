@@ -6,8 +6,7 @@ slug: law-of-large-numbers-applet
 categories: [Teaching]
 tags: [GeoGebra]
 image:
-  caption: ''
-  focal_point: ''
+  preview_only: true
 ---
 
 This applet shows the proportion (relative frequency) of heads when flipping a fair coin. As the number of coins increases the long term relative frequency will approach 0.5 (the expected value).

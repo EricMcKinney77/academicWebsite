@@ -7,8 +7,7 @@ categories: []
 tags:
   - R Shiny
 image:
-  caption: ''
-  focal_point: ''
+  preview_only: true
 ---
 
 This is an R Shiny app that Cameron Zabriskie and I created together. The app displays weather characteristics for major cities across the United States of America.

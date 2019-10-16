@@ -1,0 +1,14 @@
+---
+title: Histogram Applet
+author: Eric McKinney
+date: '2019-09-04'
+slug: histogram-applet
+categories: [Teaching]
+tags: [GeoGebra]
+image:
+  preview_only: true
+---
+
+This is an applet that allows the user to adjust the bin width of a histogram. 
+
+<iframe scrolling="no" title="Histogram with adjustable bin width." src="https://www.geogebra.org/material/iframe/id/kvtbsyze/width/930/height/474/border/888888/sfsb/true/smb/false/stb/false/stbh/false/ai/false/asb/false/sri/true/rc/false/ld/false/sdz/false/ctl/false" width="930px" height="474px" style="border:0px;" allowfullscreen> </iframe>

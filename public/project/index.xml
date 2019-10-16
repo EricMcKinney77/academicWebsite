@@ -6,10 +6,30 @@
     <description>Recent content in Projects on Eric McKinney</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 14 Sep 2019 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 16 Oct 2019 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/project/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Normal Distribution Applet</title>
+      <link>/project/normal-distribution/normal-distribution/</link>
+      <pubDate>Wed, 16 Oct 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/project/normal-distribution/normal-distribution/</guid>
+      <description>This applet allows the user to adjust the mean and standard deviation of a normal distribution. You may also calculate probabilities between two adjustable points.
+</description>
+    </item>
+    
+    <item>
+      <title>Law of Large Numbers Applet</title>
+      <link>/project/law-of-large-numbers-applet/law-of-large-numbers-applet/</link>
+      <pubDate>Tue, 17 Sep 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/project/law-of-large-numbers-applet/law-of-large-numbers-applet/</guid>
+      <description>This applet shows the proportion (relative frequency) of heads when flipping a fair coin. As the number of coins increases the long term relative frequency will approach 0.5 (the expected value).
+</description>
+    </item>
     
     <item>
       <title>2018 Data Expo R Shiny App</title>
@@ -18,6 +38,26 @@
       
       <guid>/project/2018-data-expo-r-shiny-app/2018-data-expo-r-shiny-app/</guid>
       <description>This is an R Shiny app that Cameron Zabriskie and I created together. The app displays weather characteristics for major cities across the United States of America.
+</description>
+    </item>
+    
+    <item>
+      <title>Binomial Distribution Applet</title>
+      <link>/project/binomial-distribution-applet/binomial-distribution-applet/</link>
+      <pubDate>Wed, 04 Sep 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/project/binomial-distribution-applet/binomial-distribution-applet/</guid>
+      <description>This applet allows the user to specify the parameters of a binomial distribution, and calculate the probability of a specific outcome.
+</description>
+    </item>
+    
+    <item>
+      <title>Histogram Applet</title>
+      <link>/project/histogram-applet/histogram-applet/</link>
+      <pubDate>Wed, 04 Sep 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/project/histogram-applet/histogram-applet/</guid>
+      <description>This is an applet that allows the user to adjust the bin width of a histogram.
 </description>
     </item>
     

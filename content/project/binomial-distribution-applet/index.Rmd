@@ -6,8 +6,7 @@ slug: binomial-distribution-applet
 categories: [Teaching]
 tags: [GeoGebra]
 image:
-  caption: ''
-  focal_point: ''
+  preview_only: true
 ---
 
 This applet allows the user to specify the parameters of a binomial distribution, and calculate the probability of a specific outcome. 
