@@ -13,10 +13,10 @@
     
     <item>
       <title>Normal Distribution Applet</title>
-      <link>/project/normal-distribution/normal-distribution/</link>
+      <link>/project/normal-distribution-applet/normal-distribution-applet/</link>
       <pubDate>Wed, 16 Oct 2019 00:00:00 +0000</pubDate>
       
-      <guid>/project/normal-distribution/normal-distribution/</guid>
+      <guid>/project/normal-distribution-applet/normal-distribution-applet/</guid>
       <description>This applet allows the user to adjust the mean and standard deviation of a normal distribution. You may also calculate probabilities between two adjustable points.
 </description>
     </item>

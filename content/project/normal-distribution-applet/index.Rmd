@@ -2,14 +2,13 @@
 title: Normal Distribution Applet
 author: Eric McKinney
 date: '2019-10-16'
-slug: normal-distribution
+slug: normal-distribution-applet
 categories:
   - Teaching
 tags:
   - GeoGebra
 image:
-  caption: ''
-  focal_point: ''
+  preview_only: true
 ---
 This applet allows the user to adjust the mean and standard deviation of a normal distribution. You may also calculate probabilities between two adjustable points.
 
