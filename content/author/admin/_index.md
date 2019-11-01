@@ -89,4 +89,6 @@ interests = [
 
 +++
 
-Eric McKinney is a statistics PhD student at [**Utah State University**](https://www.usu.edu/) (USU). His current research is in eye-tracking, spatial statistics, and visualizations, advised by [**Dr. Jürgen Symanzik**](http://www.math.usu.edu/symanzik/) and in collaboration with [**Dr. Breanna Studenka**](https://khs.usu.edu/people/studenka-breanna). He earned his Masters degree in statistics at USU by modeling the behavior of bridge tendons with [**Dr. Yan Sun**](http://www.math.usu.edu/people/yansun_facultypage) and [**Dr. Marc Maguire**](https://cee.usu.edu/people/faculty/maguire-marc). He also earned a BS in Mathematics from [**Weber State University**](https://weber.edu/)
+Hi! I'm Eric.
+
+I am a statistics PhD student at [**Utah State University**](https://www.usu.edu/) (USU). My current research is in eye-tracking, spatial statistics, and visualizations, advised by [**Dr. Jürgen Symanzik**](http://www.math.usu.edu/symanzik/) and in collaboration with [**Dr. Breanna Studenka**](https://khs.usu.edu/people/studenka-breanna). I earned a Masters degree in statistics at USU by modeling the behavior of bridge tendons with [**Dr. Yan Sun**](http://www.math.usu.edu/people/yansun_facultypage) and [**Dr. Marc Maguire**](https://cee.usu.edu/people/faculty/maguire-marc). I also earned a BS in Mathematics from [**Weber State University**](https://weber.edu/) where I did undergraduate research with [**Dr. Mahmud Akelbek**](https://www.weber.edu/mathematics/Faculty.html) in graph theory.
