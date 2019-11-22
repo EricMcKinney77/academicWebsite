@@ -10,6 +10,20 @@
     <atom:link href="/" rel="self" type="application/rss+xml" />
     
     <item>
+      <title>ANOVA Applet</title>
+      <link>/project/anova-applet/anova-applet/</link>
+      <pubDate>Fri, 22 Nov 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/project/anova-applet/anova-applet/</guid>
+      <description>
+
+
+&lt;iframe scrolling=&#34;no&#34; title=&#34;ANOVA&#34; src=&#34;https://www.geogebra.org/material/iframe/id/yxeu9exn/width/800/height/610/border/888888/sfsb/true/smb/false/stb/false/stbh/false/ai/false/asb/false/sri/true/rc/false/ld/false/sdz/false/ctl/false&#34; width=&#34;800px&#34; height=&#34;610px&#34; style=&#34;border:0px;&#34; allowfullscreen&gt;
+&lt;/iframe&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Normal Distribution Applet</title>
       <link>/project/normal-distribution-applet/normal-distribution-applet/</link>
       <pubDate>Wed, 16 Oct 2019 00:00:00 +0000</pubDate>

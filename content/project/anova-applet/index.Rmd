@@ -1,0 +1,14 @@
+---
+title: ANOVA Applet
+author: Eric McKinney
+date: '2019-11-22'
+slug: anova-applet
+categories:
+  - Teaching
+tags:
+  - GeoGebra
+image:
+  preview_only: true
+---
+
+<iframe scrolling="no" title="ANOVA" src="https://www.geogebra.org/material/iframe/id/yxeu9exn/width/800/height/610/border/888888/sfsb/true/smb/false/stb/false/stbh/false/ai/false/asb/false/sri/true/rc/false/ld/false/sdz/false/ctl/false" width="800px" height="610px" style="border:0px;" allowfullscreen> </iframe>

@@ -6,10 +6,19 @@
     <description>Recent content in Projects on Eric McKinney</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 16 Oct 2019 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 22 Nov 2019 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/project/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>ANOVA Applet</title>
+      <link>/project/anova-applet/anova-applet/</link>
+      <pubDate>Fri, 22 Nov 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/project/anova-applet/anova-applet/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Normal Distribution Applet</title>
