@@ -10,6 +10,19 @@
     <atom:link href="/" rel="self" type="application/rss+xml" />
     
     <item>
+      <title>Modifications of the Syrjala Test for Testing Spatial Distribution Differences Between Two Populations</title>
+      <link>/publication/mckinney2019b-modifications-of-the-syrjala-test-for-testing-spatial-distribution-differences-between-two-populations/</link>
+      <pubDate>Sat, 21 Dec 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/publication/mckinney2019b-modifications-of-the-syrjala-test-for-testing-spatial-distribution-differences-between-two-populations/</guid>
+      <description>
+
+
+
+</description>
+    </item>
+    
+    <item>
       <title>ANOVA Applet</title>
       <link>/project/anova-applet/anova-applet/</link>
       <pubDate>Fri, 22 Nov 2019 00:00:00 +0000</pubDate>
@@ -110,19 +123,6 @@
 &lt;p&gt;Hello World! This is my first post. A big shout out to &lt;a href=&#34;https://www.netlify.com/&#34;&gt;&lt;strong&gt;Netlify&lt;/strong&gt;&lt;/a&gt; for hosting this website. Thank you!&lt;/p&gt;
 &lt;p&gt;&lt;img src=&#34;Netlify.png&#34; /&gt;&lt;/p&gt;
 &lt;p&gt;Also a big thank you to the &lt;a href=&#34;https://gohugo.io/&#34;&gt;&lt;strong&gt;HUGO&lt;/strong&gt;&lt;/a&gt; Academic theme template author &lt;a href=&#34;https://georgecushen.com&#34;&gt;George Cushen&lt;/a&gt;.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Modifications of the Syrjala Test for Testing Spatial Distribution Differences Between Two Populations</title>
-      <link>/publication/mckinney2019b-modifications-of-the-syrjala-test-for-testing-spatial-distribution-differences-between-two-populations/</link>
-      <pubDate>Tue, 30 Jul 2019 00:00:00 +0000</pubDate>
-      
-      <guid>/publication/mckinney2019b-modifications-of-the-syrjala-test-for-testing-spatial-distribution-differences-between-two-populations/</guid>
-      <description>
-
-
-
 </description>
     </item>
     
