@@ -60,6 +60,14 @@
     
     <url>
     
+      <loc>/publication/mckinney2019b-modifications-of-the-syrjala-test-for-testing-spatial-distribution-differences-between-two-populations/</loc>
+      <lastmod>2019-07-30T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    <url>
+    
       <loc>/publication/mckinney2019/prediction-of-stress-increase-at-ultimate-in-unbonded-tendons-using-sparse-principal-component-analysis/</loc>
       <lastmod>2019-03-06T00:00:00+00:00</lastmod>
     </url>
@@ -155,6 +163,15 @@
     
     <url>
     
+      <loc>/publication_types/1/</loc>
+      <lastmod>2019-07-30T00:00:00+00:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    <url>
+    
       <loc>/publication_types/2/</loc>
       <lastmod>2019-03-06T00:00:00+00:00</lastmod>
       <priority>0</priority>
@@ -207,7 +224,7 @@
     <url>
     
       <loc>/categories/eye-tracking/</loc>
-      <lastmod>2018-11-09T00:00:00+00:00</lastmod>
+      <lastmod>2019-07-30T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -252,7 +269,7 @@
     <url>
     
       <loc>/publication_types/</loc>
-      <lastmod>2019-03-06T00:00:00+00:00</lastmod>
+      <lastmod>2019-07-30T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -287,6 +304,15 @@
     <url>
     
       <loc>/slides/example-slides/</loc>
+    </url>
+    
+  
+    
+    <url>
+    
+      <loc>/tags/spatial-statistics/</loc>
+      <lastmod>2019-07-30T00:00:00+00:00</lastmod>
+      <priority>0</priority>
     </url>
     
   
