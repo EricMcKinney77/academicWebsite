@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Boyu Zhang on Eric McKinney</title>
+    <link>/authors/boyu-zhang/</link>
+    <description>Recent content in Boyu Zhang on Eric McKinney</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 09 Nov 2018 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="/authors/boyu-zhang/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Eye-Tracking in Practice: The EyeTrackR R Package and its Use in a Study on Human Postures</title>
+      <link>/publication/presentationtaiwan2018/eye-tracking-in-practice-the-eyetrackr-r-package-and-its-use-in-a-study-on-human-postures/</link>
+      <pubDate>Fri, 09 Nov 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/publication/presentationtaiwan2018/eye-tracking-in-practice-the-eyetrackr-r-package-and-its-use-in-a-study-on-human-postures/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Eye-Tracking in Practice: A first Analysis of a Study on Human Postures</title>
+      <link>/publication/jsm2017/eye-tracking-in-practice-a-first-analysis-of-a-study-on-human-postures/</link>
+      <pubDate>Wed, 02 Aug 2017 00:00:00 +0000</pubDate>
+      
+      <guid>/publication/jsm2017/eye-tracking-in-practice-a-first-analysis-of-a-study-on-human-postures/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

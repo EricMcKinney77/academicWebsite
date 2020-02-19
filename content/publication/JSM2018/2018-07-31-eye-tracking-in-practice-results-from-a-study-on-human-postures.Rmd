@@ -7,6 +7,13 @@ author:
   - Brennan Bean
   - Melanie Athens
   - Madison Hansen
+authors:
+  - Jürgen Symanzik
+  - Eric McKinney
+  - Breanna Studenka
+  - Brennan Bean
+  - Melanie Athens
+  - Madison Hansen
 date: '2018-07-31'
 slug: eye-tracking-in-practice-results-from-a-study-on-human-postures
 categories:

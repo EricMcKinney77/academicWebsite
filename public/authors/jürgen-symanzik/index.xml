@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Jürgen Symanzik on Eric McKinney</title>
+    <link>/authors/j%C3%BCrgen-symanzik/</link>
+    <description>Recent content in Jürgen Symanzik on Eric McKinney</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 04 Feb 2020 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="/authors/j%C3%BCrgen-symanzik/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Eye-Tracking in Practice: An Application to Human Postures</title>
+      <link>/publication/presentationrussia2020/eye-tracking-in-practice-an-application-to-human-postures/</link>
+      <pubDate>Tue, 04 Feb 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/publication/presentationrussia2020/eye-tracking-in-practice-an-application-to-human-postures/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Modifications of the Syrjala Test for Testing Spatial Distribution Differences Between Two Populations</title>
+      <link>/publication/jsm2019/mckinney2019b-modifications-of-the-syrjala-test-for-testing-spatial-distribution-differences-between-two-populations/</link>
+      <pubDate>Sat, 21 Dec 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/publication/jsm2019/mckinney2019b-modifications-of-the-syrjala-test-for-testing-spatial-distribution-differences-between-two-populations/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Eye-Tracking in Practice: The EyeTrackR R Package and its Use in a Study on Human Postures</title>
+      <link>/publication/presentationtaiwan2018/eye-tracking-in-practice-the-eyetrackr-r-package-and-its-use-in-a-study-on-human-postures/</link>
+      <pubDate>Fri, 09 Nov 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/publication/presentationtaiwan2018/eye-tracking-in-practice-the-eyetrackr-r-package-and-its-use-in-a-study-on-human-postures/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Eye-Tracking in Practice: Results from a Study on Human Postures</title>
+      <link>/publication/jsm2018/eye-tracking-in-practice-results-from-a-study-on-human-postures/</link>
+      <pubDate>Tue, 31 Jul 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/publication/jsm2018/eye-tracking-in-practice-results-from-a-study-on-human-postures/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Eye-Tracking in Practice: A first Analysis of a Study on Human Postures</title>
+      <link>/publication/jsm2017/eye-tracking-in-practice-a-first-analysis-of-a-study-on-human-postures/</link>
+      <pubDate>Wed, 02 Aug 2017 00:00:00 +0000</pubDate>
+      
+      <guid>/publication/jsm2017/eye-tracking-in-practice-a-first-analysis-of-a-study-on-human-postures/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

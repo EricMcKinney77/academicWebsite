@@ -1,0 +1,41 @@
+---
+title: "Eye-Tracking in Practice: An Application to Human Postures"
+author:
+  - Jürgen Symanzik
+  - Eric McKinney
+  - Joanna Coltrin
+  - Breanna Studenka
+authors:
+  - Jürgen Symanzik
+  - Eric McKinney
+  - Joanna Coltrin
+  - Breanna Studenka
+date: "2020-02-04"
+slug: eye-tracking-in-practice-an-application-to-human-postures
+categories:
+  - Eye-Tracking
+tags:
+  - R
+  - Spatial Statistics
+image:
+  caption: ''
+  focal_point: ''
+abstract: "Eye tracking has been used in many scientific fields, such as behavioral sciences, education, marketing, and sports. Visualization usually plays an important role in the analysis of eye tracking data. In this presentation, we will briefly introduce the EyeTrackR R package that was developed for processing and visualizing eye tracking data from people looking at scientific posters. We will then present some of our first results of a study that tries to determine where people are looking when ranking the stability of a model holding certain postures. A portable eye-tracker was used to record the original video data of the study participants looking at the human postures. We use a modified version of the Syrjala test and a Voronoi-tessellation-based approach to determine whether study participants from two different groups have similar viewing patterns of these postures."
+abstract_short: "Eye tracking has been used in many scientific fields, such as behavioral sciences, education, marketing, and sports. Visualization usually plays an important role in the analysis of eye tracking data. In this presentation, we will briefly introduce the EyeTrackR R package that was developed for processing and visualizing eye tracking data from people looking at scientific posters. We will then present some of our first results of a study that tries to determine where people are looking when ranking the stability of a model holding certain postures. A portable eye-tracker was used to record the original video data of the study participants looking at the human postures. We use a modified version of the Syrjala test and a Voronoi-tessellation-based approach to determine whether study participants from two different groups have similar viewing patterns of these postures."
+doi: ''
+featured: true
+projects: []
+publication: "In *2020 International Scientific and Practice Conference (ISCP)*"
+publication_short: "In *ISPC*"
+publication_types: ["8"]
+slides: ''
+url_code: ''
+url_dataset: ''
+url_pdf: ''
+url_poster: ''
+url_preprint: ''
+url_project: ''
+url_slides: '/pdf/Presentation_SanktPeterburg_02_05_2020_final.pdf'
+url_source: ''
+url_video: ''
+---

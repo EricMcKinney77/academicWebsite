@@ -6,6 +6,11 @@ author:
   - Minwoo Chang
   - Marc Maguire
   - Yan Sun
+authors:
+  - Eric McKinney
+  - Minwoo Chang
+  - Marc Maguire
+  - Yan Sun
 date: '2019-03-06'
 slug: prediction-of-stress-increase-at-ultimate-in-unbonded-tendons-using-sparse-principal-component-analysis
 

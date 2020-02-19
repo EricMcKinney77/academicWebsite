@@ -10,6 +10,15 @@ author:
   - Brennan Bean
   - Melanie Athens
   - Madison Hansen
+authors:
+  - Jürgen Symanzik
+  - Chunyang Li
+  - Breanna Studenka
+  - Boyu Zhang
+  - Eric McKinney
+  - Brennan Bean
+  - Melanie Athens
+  - Madison Hansen
 date: '2018-11-09'
 slug: eye-tracking-in-practice-the-eyetrackr-r-package-and-its-use-in-a-study-on-human-postures
 categories:

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Minwoo Chang on Eric McKinney</title>
+    <link>/authors/minwoo-chang/</link>
+    <description>Recent content in Minwoo Chang on Eric McKinney</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 06 Mar 2019 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="/authors/minwoo-chang/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Prediction of Stress Increase at Ultimate in Unbonded Tendons Using Sparse Principal Component Analysis</title>
+      <link>/publication/mckinney2019/prediction-of-stress-increase-at-ultimate-in-unbonded-tendons-using-sparse-principal-component-analysis/</link>
+      <pubDate>Wed, 06 Mar 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/publication/mckinney2019/prediction-of-stress-increase-at-ultimate-in-unbonded-tendons-using-sparse-principal-component-analysis/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

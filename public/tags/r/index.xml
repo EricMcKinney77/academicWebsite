@@ -6,10 +6,19 @@
     <description>Recent content in R on Eric McKinney</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 09 Nov 2018 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 04 Feb 2020 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/tags/r/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Eye-Tracking in Practice: An Application to Human Postures</title>
+      <link>/publication/presentationrussia2020/eye-tracking-in-practice-an-application-to-human-postures/</link>
+      <pubDate>Tue, 04 Feb 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/publication/presentationrussia2020/eye-tracking-in-practice-an-application-to-human-postures/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Eye-Tracking in Practice: The EyeTrackR R Package and its Use in a Study on Human Postures</title>
