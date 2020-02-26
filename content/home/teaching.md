@@ -15,7 +15,7 @@ weight = 60
 
 +++
 
-![Alt text](/img/teachingStats.jpg)
+![Teaching Business Statistics at Utah State University](/img/teachingStats.jpg)
 
 I have taught the following courses at [**Utah State University**](https://www.usu.edu/):
 
