@@ -15,14 +15,16 @@ weight = 60
 
 +++
 
+![Alt text](/img/teachingStats.jpg)
+
 I have taught the following courses at [**Utah State University**](https://www.usu.edu/):
 
-- STAT 2300 Large Lecture (175 students): Business Statistics
+- STAT 2300 Large Lecture (165 students): Business Statistics
 - STAT 5810 (TA): Introduction to R Programming 
 - MATH 1210: Calculus 1
 - MATH 1060: Trigonometry
 - STAT 3000 Online: Statistics for Scientists
 - STAT 2300 Online: Business Statistics
-- STAT 2300 (10 recitations): Business Statistics
+- STAT 2300 (12 recitations): Business Statistics
 - MATH 1050 (3 recitations): College Algebra
 - STAT 1040 (3 recitations): Introduction to Statistics
