@@ -1,0 +1,76 @@
+---
+title: Tracking revisions with latexdiff and latexpand
+author: Eric McKinney
+date: '2020-07-20'
+slug: tracking-revisions-with-latexdiff-and-latexpand
+categories: []
+tags:
+  - LaTeX
+  - Perl
+authors: []
+image:
+  caption: ''
+  focal_point: ''
+editor_options: 
+  chunk_output_type: console
+---
+
+
+
+<p>This post details the setup and use of <a href="https://ctan.org/pkg/latexdiff?lang=en"><strong>latexdiff</strong></a> and <a href="https://ctan.org/pkg/latexpand?lang=en"><strong>latexpand</strong></a> for tracking revisions in <span class="math inline">\(\LaTeX\)</span> documents. Revisions are tracked by first flattening <span class="math inline">\(\LaTeX\)</span> documents (with chapters, a reference section, etc.) into a single .tex file, and then comparing the differences between an old.tex file to a new.tex file. Let me know if you notice a typo or have suggestions in the comments below.</p>
+<div id="getting-started" class="section level1">
+<h1>Getting started</h1>
+<p>Since <a href="https://ctan.org/pkg/latexdiff?lang=en"><strong>latexdiff</strong></a> is a <a href="https://www.perl.org/get.html"><strong>Perl</strong></a> script, you will need Perl to run it:</p>
+<ol style="list-style-type: decimal">
+<li>Download and install the <a href="https://www.perl.org/get.html"><strong>Perl</strong></a> programming language. <a href="http://strawberryperl.com/"><strong>Strawberry Perl</strong></a> works well on Windows. Mac OS X comes with an installation of Perl.</li>
+</ol>
+<p><img src="strawberryperl.png" /></p>
+<ul>
+<li>You can check if you are running on a 64 or 32 bit processor by navigating to Windows Settings -&gt; System -&gt; About</li>
+</ul>
+<p><img src="systemsettings.png" /></p>
+<ol start="2" style="list-style-type: decimal">
+<li>Download <a href="https://ctan.org/pkg/latexdiff?lang=en"><strong>latexdiff</strong></a> from CTAN.</li>
+</ol>
+<ul>
+<li>Unzip the latexdiff files and copy them to a C:\Strawberry\perl\bin\latexdiff folder.</li>
+</ul>
+<ol start="3" style="list-style-type: decimal">
+<li>Download <a href="https://ctan.org/pkg/latexpand?lang=en"><strong>latexpand</strong></a> also from CTAN (if you don’t already have it). latexpand comes with TexLive and MikTex.</li>
+</ol>
+<ul>
+<li>I prefer to use the <a href="https://www.xm1math.net/texmaker/index.html"><strong>TexMaker</strong></a> <span class="math inline">\(\LaTeX\)</span> editor which comes with MikTex. Hence, I simply checked that I had latexpand with the package manager.</li>
+</ul>
+<p><img src="packagemanager.png" /></p>
+<ol start="4" style="list-style-type: decimal">
+<li>You’re ready to go!</li>
+</ol>
+</div>
+<div id="using-latexdiff-and-latexpand" class="section level1">
+<h1>Using latexdiff and latexpand</h1>
+<p>Now that you have both latexdiff and latexpand following the following steps to track changes to a <span class="math inline">\(\LaTeX\)</span> document. This process assumes you have the following folder structure on your machine:</p>
+<p><img src="folderstructure1.png" /></p>
+<ol style="list-style-type: decimal">
+<li>Copy the most recent version’s folder (with all of its interior files), and rename it with today’s date.</li>
+</ol>
+<p><img src="folderstructure2.png" /></p>
+<p><img src="folderstructure3.png" /></p>
+<ol start="2" style="list-style-type: decimal">
+<li><p>Rename the new .tex file with today’s date, and delete all other auxiliary files with the old date.</p></li>
+<li><p>Make changes to the new .tex files (e.g., thesis_7_20_2020.tex, your_bibliography.bib, etc.) and save them.</p></li>
+<li><p>Update the old and new .tex file names with the appropriate dates in the following code, and run it in the Perl command line (you can copy and paste it all at once).</p></li>
+</ol>
+<pre class="bash"><code>cd C:\Users\YourName\Documents\Thesis\Thesis_07_19_2020
+
+latexpand --expand-bbl Thesis_07_19_2020.bbl Thesis_07_19_2020.tex &gt; Thesis_07_19_2020_flattened.tex
+
+cd ..\Thesis_07_20_2020
+
+latexpand --expand-bbl Thesis_07_20_2020.bbl Thesis_07_20_2020.tex &gt; Thesis_07_20_2020_flattened.tex
+
+latexdiff ..\Thesis_07_19_2020\Thesis_07_19_2020_flattened.tex Thesis_07_20_2020_flattened.tex &gt; Thesis_07_19_2020_diff.tex</code></pre>
+<ol start="5" style="list-style-type: decimal">
+<li><p>Compile the diff.tex document in your <span class="math inline">\(\LaTeX\)</span> editor to obtain a latexdiff pdf of your work.</p></li>
+<li><p>Cheers!</p></li>
+</ol>
+</div>

@@ -10,6 +10,75 @@
     <atom:link href="/" rel="self" type="application/rss+xml" />
     
     <item>
+      <title>Tracking revisions with latexdiff and latexpand</title>
+      <link>/post/tracking-revisions-with-latexdiff-and-latexpand/tracking-revisions-with-latexdiff-and-latexpand/</link>
+      <pubDate>Mon, 20 Jul 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/post/tracking-revisions-with-latexdiff-and-latexpand/tracking-revisions-with-latexdiff-and-latexpand/</guid>
+      <description>
+
+
+&lt;p&gt;This post details the setup and use of &lt;a href=&#34;https://ctan.org/pkg/latexdiff?lang=en&#34;&gt;&lt;strong&gt;latexdiff&lt;/strong&gt;&lt;/a&gt; and &lt;a href=&#34;https://ctan.org/pkg/latexpand?lang=en&#34;&gt;&lt;strong&gt;latexpand&lt;/strong&gt;&lt;/a&gt; for tracking revisions in &lt;span class=&#34;math inline&#34;&gt;\(\LaTeX\)&lt;/span&gt; documents. Revisions are tracked by first flattening &lt;span class=&#34;math inline&#34;&gt;\(\LaTeX\)&lt;/span&gt; documents (with chapters, a reference section, etc.) into a single .tex file, and then comparing the differences between an old.tex file to a new.tex file. Let me know if you notice a typo or have suggestions in the comments below.&lt;/p&gt;
+&lt;div id=&#34;getting-started&#34; class=&#34;section level1&#34;&gt;
+&lt;h1&gt;Getting started&lt;/h1&gt;
+&lt;p&gt;Since &lt;a href=&#34;https://ctan.org/pkg/latexdiff?lang=en&#34;&gt;&lt;strong&gt;latexdiff&lt;/strong&gt;&lt;/a&gt; is a &lt;a href=&#34;https://www.perl.org/get.html&#34;&gt;&lt;strong&gt;Perl&lt;/strong&gt;&lt;/a&gt; script, you will need Perl to run it:&lt;/p&gt;
+&lt;ol style=&#34;list-style-type: decimal&#34;&gt;
+&lt;li&gt;Download and install the &lt;a href=&#34;https://www.perl.org/get.html&#34;&gt;&lt;strong&gt;Perl&lt;/strong&gt;&lt;/a&gt; programming language. &lt;a href=&#34;http://strawberryperl.com/&#34;&gt;&lt;strong&gt;Strawberry Perl&lt;/strong&gt;&lt;/a&gt; works well on Windows. Mac OS X comes with an installation of Perl.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;img src=&#34;strawberryperl.png&#34; /&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;You can check if you are running on a 64 or 32 bit processor by navigating to Windows Settings -&amp;gt; System -&amp;gt; About&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;img src=&#34;systemsettings.png&#34; /&gt;&lt;/p&gt;
+&lt;ol start=&#34;2&#34; style=&#34;list-style-type: decimal&#34;&gt;
+&lt;li&gt;Download &lt;a href=&#34;https://ctan.org/pkg/latexdiff?lang=en&#34;&gt;&lt;strong&gt;latexdiff&lt;/strong&gt;&lt;/a&gt; from CTAN.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;ul&gt;
+&lt;li&gt;Unzip the latexdiff files and copy them to a C:\Strawberry\perl\bin\latexdiff folder.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;ol start=&#34;3&#34; style=&#34;list-style-type: decimal&#34;&gt;
+&lt;li&gt;Download &lt;a href=&#34;https://ctan.org/pkg/latexpand?lang=en&#34;&gt;&lt;strong&gt;latexpand&lt;/strong&gt;&lt;/a&gt; also from CTAN (if you don’t already have it). latexpand comes with TexLive and MikTex.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;ul&gt;
+&lt;li&gt;I prefer to use the &lt;a href=&#34;https://www.xm1math.net/texmaker/index.html&#34;&gt;&lt;strong&gt;TexMaker&lt;/strong&gt;&lt;/a&gt; &lt;span class=&#34;math inline&#34;&gt;\(\LaTeX\)&lt;/span&gt; editor which comes with MikTex. Hence, I simply checked that I had latexpand with the package manager.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;img src=&#34;packagemanager.png&#34; /&gt;&lt;/p&gt;
+&lt;ol start=&#34;4&#34; style=&#34;list-style-type: decimal&#34;&gt;
+&lt;li&gt;You’re ready to go!&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/div&gt;
+&lt;div id=&#34;using-latexdiff-and-latexpand&#34; class=&#34;section level1&#34;&gt;
+&lt;h1&gt;Using latexdiff and latexpand&lt;/h1&gt;
+&lt;p&gt;Now that you have both latexdiff and latexpand following the following steps to track changes to a &lt;span class=&#34;math inline&#34;&gt;\(\LaTeX\)&lt;/span&gt; document. This process assumes you have the following folder structure on your machine:&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;folderstructure1.png&#34; /&gt;&lt;/p&gt;
+&lt;ol style=&#34;list-style-type: decimal&#34;&gt;
+&lt;li&gt;Copy the most recent version’s folder (with all of its interior files), and rename it with today’s date.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;img src=&#34;folderstructure2.png&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;folderstructure3.png&#34; /&gt;&lt;/p&gt;
+&lt;ol start=&#34;2&#34; style=&#34;list-style-type: decimal&#34;&gt;
+&lt;li&gt;&lt;p&gt;Rename the new .tex file with today’s date, and delete all other auxiliary files with the old date.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Make changes to the new .tex files (e.g., thesis_7_20_2020.tex, your_bibliography.bib, etc.) and save them.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Update the old and new .tex file names with the appropriate dates in the following code, and run it in the Perl command line (you can copy and paste it all at once).&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;pre class=&#34;bash&#34;&gt;&lt;code&gt;cd C:\Users\YourName\Documents\Thesis\Thesis_07_19_2020
+
+latexpand --expand-bbl Thesis_07_19_2020.bbl Thesis_07_19_2020.tex &amp;gt; Thesis_07_19_2020_flattened.tex
+
+cd ..\Thesis_07_20_2020
+
+latexpand --expand-bbl Thesis_07_20_2020.bbl Thesis_07_20_2020.tex &amp;gt; Thesis_07_20_2020_flattened.tex
+
+latexdiff ..\Thesis_07_19_2020\Thesis_07_19_2020_flattened.tex Thesis_07_20_2020_flattened.tex &amp;gt; Thesis_07_19_2020_diff.tex&lt;/code&gt;&lt;/pre&gt;
+&lt;ol start=&#34;5&#34; style=&#34;list-style-type: decimal&#34;&gt;
+&lt;li&gt;&lt;p&gt;Compile the diff.tex document in your &lt;span class=&#34;math inline&#34;&gt;\(\LaTeX\)&lt;/span&gt; editor to obtain a latexdiff pdf of your work.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Cheers!&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Eye-Tracking in Practice: An Application to Human Postures</title>
       <link>/publication/presentationrussia2020/eye-tracking-in-practice-an-application-to-human-postures/</link>
       <pubDate>Tue, 04 Feb 2020 00:00:00 +0000</pubDate>
@@ -205,19 +274,6 @@
       
       <guid>/privacy/</guid>
       <description>&lt;p&gt;&amp;hellip;&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Eye-Tracking in Practice: A first Analysis of a Study on Human Postures</title>
-      <link>/publication/jsm2017/eye-tracking-in-practice-a-first-analysis-of-a-study-on-human-postures/</link>
-      <pubDate>Wed, 02 Aug 2017 00:00:00 +0000</pubDate>
-      
-      <guid>/publication/jsm2017/eye-tracking-in-practice-a-first-analysis-of-a-study-on-human-postures/</guid>
-      <description>
-
-
-
 </description>
     </item>
     

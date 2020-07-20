@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Posts on Eric McKinney</title>
-    <link>/post/</link>
-    <description>Recent content in Posts on Eric McKinney</description>
+    <title>LaTeX on Eric McKinney</title>
+    <link>/tags/latex/</link>
+    <description>Recent content in LaTeX on Eric McKinney</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 01 Jan 2017 00:00:00 -0700</lastBuildDate>
+    <lastBuildDate>Mon, 20 Jul 2020 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="/post/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="/tags/latex/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
@@ -19,16 +19,6 @@
       <guid>/post/tracking-revisions-with-latexdiff-and-latexpand/tracking-revisions-with-latexdiff-and-latexpand/</guid>
       <description>This post details the setup and use of latexdiff and latexpand for tracking revisions in \(\LaTeX\) documents. Revisions are tracked by first flattening \(\LaTeX\) documents (with chapters, a reference section, etc.) into a single .tex file, and then comparing the differences between an old.tex file to a new.tex file. Let me know if you notice a typo or have suggestions in the comments below.
 Getting startedSince latexdiff is a Perl script, you will need Perl to run it:</description>
-    </item>
-    
-    <item>
-      <title>Hello World!</title>
-      <link>/post/hello-world/hello-world/</link>
-      <pubDate>Tue, 03 Sep 2019 00:00:00 +0000</pubDate>
-      
-      <guid>/post/hello-world/hello-world/</guid>
-      <description>Hello World! This is my first post. A big shout out to Netlify for hosting this website. Thank you!
-Also a big thank you to the HUGO Academic theme template author George Cushen.</description>
     </item>
     
   </channel>

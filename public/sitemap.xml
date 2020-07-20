@@ -4,6 +4,14 @@
     
     <url>
     
+      <loc>/post/tracking-revisions-with-latexdiff-and-latexpand/tracking-revisions-with-latexdiff-and-latexpand/</loc>
+      <lastmod>2020-07-20T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    <url>
+    
       <loc>/publication/presentationrussia2020/eye-tracking-in-practice-an-application-to-human-postures/</loc>
       <lastmod>2020-02-04T00:00:00+00:00</lastmod>
     </url>
@@ -330,6 +338,15 @@
     
     <url>
     
+      <loc>/tags/latex/</loc>
+      <lastmod>2020-07-20T00:00:00+00:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    <url>
+    
       <loc>/authors/madison-hansen/</loc>
       <lastmod>2018-11-09T00:00:00+00:00</lastmod>
       <priority>0</priority>
@@ -359,6 +376,15 @@
     
       <loc>/authors/minwoo-chang/</loc>
       <lastmod>2019-03-06T00:00:00+00:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    <url>
+    
+      <loc>/tags/perl/</loc>
+      <lastmod>2020-07-20T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
     
