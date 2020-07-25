@@ -43,7 +43,7 @@ Since [**latexdiff**](https://ctan.org/pkg/latexdiff?lang=en) is a [**Perl**](ht
 
 # Using latexdiff and latexpand
 
-Now that you have both latexdiff and latexpand following the following steps to track changes to a $\LaTeX$ document. This process assumes you have the following folder structure on your machine:
+Now that you have both latexdiff and latexpand use the below steps to track changes to a $\LaTeX$ document. This process assumes you have the following folder structure on your machine:
 
 ![](folderstructure1.png)
 
@@ -54,6 +54,14 @@ Now that you have both latexdiff and latexpand following the following steps to 
 ![](folderstructure3.png)
 
 2. Rename the new .tex file with today’s date, and delete all other auxiliary files with the old date.
+
+![](folderstructure4.png)
+
+![](folderstructure5.png)
+
+![](folderstructure6.png)
+
+![](folderstructure7.png)
 
 3. Make changes to the new .tex files (e.g., thesis_7_20_2020.tex, your_bibliography.bib, etc.) and save them.
 
@@ -73,4 +81,4 @@ latexdiff ..\Thesis_07_19_2020\Thesis_07_19_2020_flattened.tex Thesis_07_20_2020
 
 5. Compile the diff.tex document in your $\LaTeX$ editor to obtain a latexdiff pdf of your work.
 
-6. Cheers!
+Cheers!

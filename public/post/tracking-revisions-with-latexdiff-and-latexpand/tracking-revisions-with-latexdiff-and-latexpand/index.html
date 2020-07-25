@@ -477,7 +477,7 @@ Getting startedSince latexdiff is a Perl script, you will need Perl to run it:"
 </div>
 <div id="using-latexdiff-and-latexpand" class="section level1">
 <h1>Using latexdiff and latexpand</h1>
-<p>Now that you have both latexdiff and latexpand following the following steps to track changes to a <span class="math inline">\(\LaTeX\)</span> document. This process assumes you have the following folder structure on your machine:</p>
+<p>Now that you have both latexdiff and latexpand use the below steps to track changes to a <span class="math inline">\(\LaTeX\)</span> document. This process assumes you have the following folder structure on your machine:</p>
 <p><img src="folderstructure1.png" /></p>
 <ol style="list-style-type: decimal">
 <li>Copy the most recent version’s folder (with all of its interior files), and rename it with today’s date.</li>
@@ -485,7 +485,13 @@ Getting startedSince latexdiff is a Perl script, you will need Perl to run it:"
 <p><img src="folderstructure2.png" /></p>
 <p><img src="folderstructure3.png" /></p>
 <ol start="2" style="list-style-type: decimal">
-<li><p>Rename the new .tex file with today’s date, and delete all other auxiliary files with the old date.</p></li>
+<li>Rename the new .tex file with today’s date, and delete all other auxiliary files with the old date.</li>
+</ol>
+<p><img src="folderstructure4.png" /></p>
+<p><img src="folderstructure5.png" /></p>
+<p><img src="folderstructure6.png" /></p>
+<p><img src="folderstructure7.png" /></p>
+<ol start="3" style="list-style-type: decimal">
 <li><p>Make changes to the new .tex files (e.g., thesis_7_20_2020.tex, your_bibliography.bib, etc.) and save them.</p></li>
 <li><p>Update the old and new .tex file names with the appropriate dates in the following code, and run it in the Perl command line (you can copy and paste it all at once).</p></li>
 </ol>
@@ -499,9 +505,9 @@ latexpand --expand-bbl Thesis_07_20_2020.bbl Thesis_07_20_2020.tex &gt; Thesis_0
 
 latexdiff ..\Thesis_07_19_2020\Thesis_07_19_2020_flattened.tex Thesis_07_20_2020_flattened.tex &gt; Thesis_07_19_2020_diff.tex</code></pre>
 <ol start="5" style="list-style-type: decimal">
-<li><p>Compile the diff.tex document in your <span class="math inline">\(\LaTeX\)</span> editor to obtain a latexdiff pdf of your work.</p></li>
-<li><p>Cheers!</p></li>
+<li>Compile the diff.tex document in your <span class="math inline">\(\LaTeX\)</span> editor to obtain a latexdiff pdf of your work.</li>
 </ol>
+<p>Cheers!</p>
 </div>
 
     </div>
