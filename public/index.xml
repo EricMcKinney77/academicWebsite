@@ -67,17 +67,17 @@
 &lt;li&gt;&lt;p&gt;Make changes to the new .tex files (e.g., thesis_7_20_2020.tex, your_bibliography.bib, etc.) and save them.&lt;/p&gt;&lt;/li&gt;
 &lt;li&gt;&lt;p&gt;Update the old and new .tex file names with the appropriate dates in the following code, and run it in the Perl command line (you can copy and paste it all at once).&lt;/p&gt;&lt;/li&gt;
 &lt;/ol&gt;
-&lt;pre class=&#34;bash&#34;&gt;&lt;code&gt;cd C:\Users\YourName\Documents\Thesis\Thesis_07_19_2020
+&lt;pre class=&#34;bash&#34;&gt;&lt;code&gt;cd C:\Users\YourName\Documents\Thesis\Thesis_7_19_2020
 
-latexpand --expand-bbl Thesis_07_19_2020.bbl Thesis_07_19_2020.tex &amp;gt; Thesis_07_19_2020_flattened.tex
+latexpand --expand-bbl Thesis_7_19_2020.bbl Thesis_7_19_2020.tex &amp;gt; Thesis_7_19_2020_flattened.tex
 
-cd ..\Thesis_07_20_2020
+cd ..\Thesis_7_20_2020
 
-latexpand --expand-bbl Thesis_07_20_2020.bbl Thesis_07_20_2020.tex &amp;gt; Thesis_07_20_2020_flattened.tex
+latexpand --expand-bbl Thesis_7_20_2020.bbl Thesis_7_20_2020.tex &amp;gt; Thesis_7_20_2020_flattened.tex
 
-latexdiff ..\Thesis_07_19_2020\Thesis_07_19_2020_flattened.tex Thesis_07_20_2020_flattened.tex &amp;gt; Thesis_07_19_2020_diff.tex&lt;/code&gt;&lt;/pre&gt;
+latexdiff ..\Thesis_7_19_2020\Thesis_7_19_2020_flattened.tex Thesis_7_20_2020_flattened.tex &amp;gt; Thesis_7_20_2020_diff.tex&lt;/code&gt;&lt;/pre&gt;
 &lt;ol start=&#34;5&#34; style=&#34;list-style-type: decimal&#34;&gt;
-&lt;li&gt;Compile the diff.tex document in your &lt;span class=&#34;math inline&#34;&gt;\(\LaTeX\)&lt;/span&gt; editor to obtain a latexdiff pdf of your work.&lt;/li&gt;
+&lt;li&gt;Compile the diff.tex document in your &lt;span class=&#34;math inline&#34;&gt;\(\LaTeX\)&lt;/span&gt; editor to obtain a &lt;a href=&#34;Thesis_7_20_2020_diff.pdf&#34;&gt;latexdiff pdf&lt;/a&gt; of your work.&lt;/li&gt;
 &lt;/ol&gt;
 &lt;p&gt;Cheers!&lt;/p&gt;
 &lt;/div&gt;

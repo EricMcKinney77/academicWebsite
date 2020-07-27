@@ -123,7 +123,7 @@ Getting startedSince latexdiff is a Perl script, you will need Perl to run it:"
   <meta property="og:url" content="/post/tracking-revisions-with-latexdiff-and-latexpand/tracking-revisions-with-latexdiff-and-latexpand/">
   <meta property="og:title" content="Tracking revisions with latexdiff and latexpand | Eric McKinney">
   <meta property="og:description" content="This post details the setup and use of latexdiff and latexpand for tracking revisions in \(\LaTeX\) documents. Revisions are tracked by first flattening \(\LaTeX\) documents (with chapters, a reference section, etc.) into a single .tex file, and then comparing the differences between an old.tex file to a new.tex file. Let me know if you notice a typo or have suggestions in the comments below.
-Getting startedSince latexdiff is a Perl script, you will need Perl to run it:"><meta property="og:image" content="/img/icon-32.png">
+Getting startedSince latexdiff is a Perl script, you will need Perl to run it:"><meta property="og:image" content="/post/tracking-revisions-with-latexdiff-and-latexpand/tracking-revisions-with-latexdiff-and-latexpand/featured.png">
   <meta property="og:locale" content="en-us">
   
   <meta property="article:published_time" content="2020-07-20T00:00:00&#43;00:00">
@@ -326,6 +326,15 @@ Getting startedSince latexdiff is a Perl script, you will need Perl to run it:"
 
 
 
+<div class="article-header">
+  
+  
+  <img src="/img/headers/latexdiffHeader.png" class="article-banner" itemprop="image" alt="">
+  
+
+  <span class="article-header-caption">An example of latexdiff</span>
+</div>
+
 
 
 
@@ -495,17 +504,17 @@ Getting startedSince latexdiff is a Perl script, you will need Perl to run it:"
 <li><p>Make changes to the new .tex files (e.g., thesis_7_20_2020.tex, your_bibliography.bib, etc.) and save them.</p></li>
 <li><p>Update the old and new .tex file names with the appropriate dates in the following code, and run it in the Perl command line (you can copy and paste it all at once).</p></li>
 </ol>
-<pre class="bash"><code>cd C:\Users\YourName\Documents\Thesis\Thesis_07_19_2020
+<pre class="bash"><code>cd C:\Users\YourName\Documents\Thesis\Thesis_7_19_2020
 
-latexpand --expand-bbl Thesis_07_19_2020.bbl Thesis_07_19_2020.tex &gt; Thesis_07_19_2020_flattened.tex
+latexpand --expand-bbl Thesis_7_19_2020.bbl Thesis_7_19_2020.tex &gt; Thesis_7_19_2020_flattened.tex
 
-cd ..\Thesis_07_20_2020
+cd ..\Thesis_7_20_2020
 
-latexpand --expand-bbl Thesis_07_20_2020.bbl Thesis_07_20_2020.tex &gt; Thesis_07_20_2020_flattened.tex
+latexpand --expand-bbl Thesis_7_20_2020.bbl Thesis_7_20_2020.tex &gt; Thesis_7_20_2020_flattened.tex
 
-latexdiff ..\Thesis_07_19_2020\Thesis_07_19_2020_flattened.tex Thesis_07_20_2020_flattened.tex &gt; Thesis_07_19_2020_diff.tex</code></pre>
+latexdiff ..\Thesis_7_19_2020\Thesis_7_19_2020_flattened.tex Thesis_7_20_2020_flattened.tex &gt; Thesis_7_20_2020_diff.tex</code></pre>
 <ol start="5" style="list-style-type: decimal">
-<li>Compile the diff.tex document in your <span class="math inline">\(\LaTeX\)</span> editor to obtain a latexdiff pdf of your work.</li>
+<li>Compile the diff.tex document in your <span class="math inline">\(\LaTeX\)</span> editor to obtain a <a href="Thesis_7_20_2020_diff.pdf">latexdiff pdf</a> of your work.</li>
 </ol>
 <p>Cheers!</p>
 </div>

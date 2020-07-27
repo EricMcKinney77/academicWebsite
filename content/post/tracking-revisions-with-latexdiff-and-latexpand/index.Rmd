@@ -8,9 +8,14 @@ tags:
   - LaTeX
   - Perl
 authors: []
+# To use, simply add an image named `featured.jpg/png` to your project's folder. 
 image:
   caption: ''
   focal_point: ''
+  preview_only: true
+header:
+  image: "headers/latexdiffHeader.png"
+  caption: 'An example of latexdiff'
 editor_options: 
   chunk_output_type: console
 ---
@@ -68,17 +73,17 @@ Now that you have both latexdiff and latexpand use the below steps to track chan
 4. Update the old and new .tex file names with the appropriate dates in the following code, and run it in the Perl command line (you can copy and paste it all at once).
 
 ```{bash eval = FALSE}
-cd C:\Users\YourName\Documents\Thesis\Thesis_07_19_2020
+cd C:\Users\YourName\Documents\Thesis\Thesis_7_19_2020
 
-latexpand --expand-bbl Thesis_07_19_2020.bbl Thesis_07_19_2020.tex > Thesis_07_19_2020_flattened.tex
+latexpand --expand-bbl Thesis_7_19_2020.bbl Thesis_7_19_2020.tex > Thesis_7_19_2020_flattened.tex
 
-cd ..\Thesis_07_20_2020
+cd ..\Thesis_7_20_2020
 
-latexpand --expand-bbl Thesis_07_20_2020.bbl Thesis_07_20_2020.tex > Thesis_07_20_2020_flattened.tex
+latexpand --expand-bbl Thesis_7_20_2020.bbl Thesis_7_20_2020.tex > Thesis_7_20_2020_flattened.tex
 
-latexdiff ..\Thesis_07_19_2020\Thesis_07_19_2020_flattened.tex Thesis_07_20_2020_flattened.tex > Thesis_07_19_2020_diff.tex
+latexdiff ..\Thesis_7_19_2020\Thesis_7_19_2020_flattened.tex Thesis_7_20_2020_flattened.tex > Thesis_7_20_2020_diff.tex
 ```
 
-5. Compile the diff.tex document in your $\LaTeX$ editor to obtain a latexdiff pdf of your work.
+5. Compile the diff.tex document in your $\LaTeX$ editor to obtain a [latexdiff pdf](Thesis_7_20_2020_diff.pdf) of your work.
 
 Cheers!

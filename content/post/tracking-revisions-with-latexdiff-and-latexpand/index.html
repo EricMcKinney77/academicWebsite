@@ -8,9 +8,14 @@ tags:
   - LaTeX
   - Perl
 authors: []
+# To use, simply add an image named `featured.jpg/png` to your project's folder. 
 image:
   caption: ''
   focal_point: ''
+  preview_only: true
+header:
+  image: "headers/latexdiffHeader.png"
+  caption: 'An example of latexdiff'
 editor_options: 
   chunk_output_type: console
 ---
@@ -66,17 +71,17 @@ editor_options:
 <li><p>Make changes to the new .tex files (e.g., thesis_7_20_2020.tex, your_bibliography.bib, etc.) and save them.</p></li>
 <li><p>Update the old and new .tex file names with the appropriate dates in the following code, and run it in the Perl command line (you can copy and paste it all at once).</p></li>
 </ol>
-<pre class="bash"><code>cd C:\Users\YourName\Documents\Thesis\Thesis_07_19_2020
+<pre class="bash"><code>cd C:\Users\YourName\Documents\Thesis\Thesis_7_19_2020
 
-latexpand --expand-bbl Thesis_07_19_2020.bbl Thesis_07_19_2020.tex &gt; Thesis_07_19_2020_flattened.tex
+latexpand --expand-bbl Thesis_7_19_2020.bbl Thesis_7_19_2020.tex &gt; Thesis_7_19_2020_flattened.tex
 
-cd ..\Thesis_07_20_2020
+cd ..\Thesis_7_20_2020
 
-latexpand --expand-bbl Thesis_07_20_2020.bbl Thesis_07_20_2020.tex &gt; Thesis_07_20_2020_flattened.tex
+latexpand --expand-bbl Thesis_7_20_2020.bbl Thesis_7_20_2020.tex &gt; Thesis_7_20_2020_flattened.tex
 
-latexdiff ..\Thesis_07_19_2020\Thesis_07_19_2020_flattened.tex Thesis_07_20_2020_flattened.tex &gt; Thesis_07_19_2020_diff.tex</code></pre>
+latexdiff ..\Thesis_7_19_2020\Thesis_7_19_2020_flattened.tex Thesis_7_20_2020_flattened.tex &gt; Thesis_7_20_2020_diff.tex</code></pre>
 <ol start="5" style="list-style-type: decimal">
-<li>Compile the diff.tex document in your <span class="math inline">\(\LaTeX\)</span> editor to obtain a latexdiff pdf of your work.</li>
+<li>Compile the diff.tex document in your <span class="math inline">\(\LaTeX\)</span> editor to obtain a <a href="Thesis_7_20_2020_diff.pdf">latexdiff pdf</a> of your work.</li>
 </ol>
 <p>Cheers!</p>
 </div>
