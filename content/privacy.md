@@ -10,4 +10,4 @@ share = false
 # caption = ""
 +++
 
-...
+Absolutely no information is collected from visitors to my website. Enjoy!
