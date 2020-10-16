@@ -62,7 +62,7 @@ gravatar = false
 
 # Contact Widget setup
   email = "ericmckinney77@gmail.com"
-  address = "ANSC 322, Utah State University, Utah, 84321, USA"
+  address = "ANSC 321, Utah State University, Utah, 84321, USA"
   # Office hours: use `<br>` to insert a line break, or set to "" to remove office hours
   office_hours = ""
   phone = ""
