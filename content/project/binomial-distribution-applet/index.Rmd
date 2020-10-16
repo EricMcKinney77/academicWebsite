@@ -3,8 +3,10 @@ title: Binomial Distribution Applet
 author: Eric McKinney
 date: '2019-09-04'
 slug: binomial-distribution-applet
-categories: [Teaching]
-tags: [GeoGebra]
+categories: []
+tags:
+  - Teaching
+  - GeoGebra
 image:
   preview_only: true
 ---

@@ -43,6 +43,10 @@ filter_default = 0
 [[filter]]
   name = "R Shiny"
   tag = "R Shiny"
+  
+[[filter]]
+  name = "GeoGebra"
+  tag = "GeoGebra"
 
 [[filter]]
   name = "Teaching"
