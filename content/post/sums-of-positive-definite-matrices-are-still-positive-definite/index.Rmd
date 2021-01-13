@@ -17,9 +17,9 @@ editor_options:
   chunk_output_type: console
 ---
 
-For a matrix $A$, the notation $A\succeq0$ and $A\succ0$ when $A$ is often used to denote positive semi-definite (PSD) or positive definite (PD) matrices, respectively. \underline{Using the definition of a PD matrix}, we can prove that the sum of two PD matrices is also PD. A very similar approach can be used to prove the sum of two PSD matrices is also PSD.
+For a matrix $A$, the notation $A\succeq0$ and $A\succ0$ when $A$ is often used to denote positive semi-definite (PSD) or positive definite (PD) matrices, respectively. Using the definition of a PD matrix, we can prove that the sum of two PD matrices is also PD. A very similar approach can be used to prove the sum of two PSD matrices is also PSD.
 
 $\textbf{Proof:}$ Let both $A$ and $B$ be $d \times d$ matrices. Also, let $A \succ 0$ and $B \succ 0$. Then by the definition of positive definite matrices, $\textbf{x}^T A \textbf{x} > 0$ and $\textbf{x}^T B \textbf{x} > 0$ for all non-zero vectors $\textbf{x}$.
 
 Now, notice that $$\textbf{x}^T (A + B) \textbf{x} = \textbf{x}^T A \textbf{x} + \textbf{x}^T B \textbf{x}$$ by the matrix distributive property. Since we know that both $\textbf{x}^T A \textbf{x} > 0$ and $\textbf{x}^T B \textbf{x} > 0$, and that the sum of two positive numbers is also positive. Then, $$\textbf{x}^T A \textbf{x} + \textbf{x}^T B \textbf{x} > 0.$$ This implies that $$\textbf{x}^T (A + B) \textbf{x} > 0.$$ Thus, the sum of two positive definite matrices $A$ and $B$ is positive definite.
-\hfill $\blacksquare$
+[$\blacksquare$]{style="float:right"}
