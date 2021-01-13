@@ -12,6 +12,16 @@
     
     
     <item>
+      <title>Sums of positive definite matrices are still positive definite</title>
+      <link>/post/sums-of-positive-definite-matrices-are-still-positive-definite/sums-of-positive-definite-matrices-are-still-positive-definite/</link>
+      <pubDate>Wed, 13 Jan 2021 00:00:00 +0000</pubDate>
+      
+      <guid>/post/sums-of-positive-definite-matrices-are-still-positive-definite/sums-of-positive-definite-matrices-are-still-positive-definite/</guid>
+      <description>For a matrix \(A\), the notation \(A\succeq0\) and \(A\succ0\) when \(A\) is often used to denote positive semi-definite (PSD) or positive definite (PD) matrices, respectively. , we can prove that the sum of two PD matrices is also PD. A very similar approach can be used to prove the sum of two PSD matrices is also PSD.
+ Let both \(A\) and \(B\) be \(d \times d\) matrices. Also, let \(A \succ 0\) and \(B \succ 0\).</description>
+    </item>
+    
+    <item>
       <title>Tracking revisions with latexdiff and latexpand</title>
       <link>/post/tracking-revisions-with-latexdiff-and-latexpand/tracking-revisions-with-latexdiff-and-latexpand/</link>
       <pubDate>Mon, 20 Jul 2020 00:00:00 +0000</pubDate>

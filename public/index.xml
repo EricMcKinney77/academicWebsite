@@ -10,6 +10,22 @@
     <atom:link href="/" rel="self" type="application/rss+xml" />
     
     <item>
+      <title>Sums of positive definite matrices are still positive definite</title>
+      <link>/post/sums-of-positive-definite-matrices-are-still-positive-definite/sums-of-positive-definite-matrices-are-still-positive-definite/</link>
+      <pubDate>Wed, 13 Jan 2021 00:00:00 +0000</pubDate>
+      
+      <guid>/post/sums-of-positive-definite-matrices-are-still-positive-definite/sums-of-positive-definite-matrices-are-still-positive-definite/</guid>
+      <description>
+
+
+&lt;p&gt;For a matrix &lt;span class=&#34;math inline&#34;&gt;\(A\)&lt;/span&gt;, the notation &lt;span class=&#34;math inline&#34;&gt;\(A\succeq0\)&lt;/span&gt; and &lt;span class=&#34;math inline&#34;&gt;\(A\succ0\)&lt;/span&gt; when &lt;span class=&#34;math inline&#34;&gt;\(A\)&lt;/span&gt; is often used to denote positive semi-definite (PSD) or positive definite (PD) matrices, respectively. , we can prove that the sum of two PD matrices is also PD. A very similar approach can be used to prove the sum of two PSD matrices is also PSD.&lt;/p&gt;
+&lt;p&gt; Let both &lt;span class=&#34;math inline&#34;&gt;\(A\)&lt;/span&gt; and &lt;span class=&#34;math inline&#34;&gt;\(B\)&lt;/span&gt; be &lt;span class=&#34;math inline&#34;&gt;\(d \times d\)&lt;/span&gt; matrices. Also, let &lt;span class=&#34;math inline&#34;&gt;\(A \succ 0\)&lt;/span&gt; and &lt;span class=&#34;math inline&#34;&gt;\(B \succ 0\)&lt;/span&gt;. Then by the definition of positive definite matrices, &lt;span class=&#34;math inline&#34;&gt;\(\textbf{x}^T A \textbf{x} &amp;gt; 0\)&lt;/span&gt; and &lt;span class=&#34;math inline&#34;&gt;\(\textbf{x}^T B \textbf{x} &amp;gt; 0\)&lt;/span&gt; for all non-zero vectors &lt;span class=&#34;math inline&#34;&gt;\(\textbf{x}\)&lt;/span&gt;.&lt;/p&gt;
+&lt;p&gt;Now, notice that &lt;span class=&#34;math display&#34;&gt;\[\textbf{x}^T (A + B) \textbf{x} = \textbf{x}^T A \textbf{x} + \textbf{x}^T B \textbf{x}\]&lt;/span&gt; by the matrix distributive property. Since we know that both &lt;span class=&#34;math inline&#34;&gt;\(\textbf{x}^T A \textbf{x} &amp;gt; 0\)&lt;/span&gt; and &lt;span class=&#34;math inline&#34;&gt;\(\textbf{x}^T B \textbf{x} &amp;gt; 0\)&lt;/span&gt;, and that the sum of two positive numbers is also positive. Then, &lt;span class=&#34;math display&#34;&gt;\[\textbf{x}^T A \textbf{x} + \textbf{x}^T B \textbf{x} &amp;gt; 0.\]&lt;/span&gt; This implies that &lt;span class=&#34;math display&#34;&gt;\[\textbf{x}^T (A + B) \textbf{x} &amp;gt; 0.\]&lt;/span&gt; Thus, the sum of two positive definite matrices &lt;span class=&#34;math inline&#34;&gt;\(A\)&lt;/span&gt; and &lt;span class=&#34;math inline&#34;&gt;\(B\)&lt;/span&gt; is positive definite.
+&lt;span class=&#34;math inline&#34;&gt;\(\blacksquare\)&lt;/span&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Tracking revisions with latexdiff and latexpand</title>
       <link>/post/tracking-revisions-with-latexdiff-and-latexpand/tracking-revisions-with-latexdiff-and-latexpand/</link>
       <pubDate>Mon, 20 Jul 2020 00:00:00 +0000</pubDate>
@@ -270,16 +286,6 @@ latexdiff ..\Thesis_7_19_2020\Thesis_7_19_2020_flattened.tex Thesis_7_20_2020_fl
 
 
 
-</description>
-    </item>
-    
-    <item>
-      <title>Privacy Policy</title>
-      <link>/privacy/</link>
-      <pubDate>Thu, 28 Jun 2018 00:00:00 -0600</pubDate>
-      
-      <guid>/privacy/</guid>
-      <description>&lt;p&gt;Absolutely no information is collected from visitors to my website. Enjoy!&lt;/p&gt;
 </description>
     </item>
     
