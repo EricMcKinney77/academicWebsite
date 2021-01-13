@@ -18,7 +18,7 @@
       
       <guid>/post/sums-of-positive-definite-matrices-are-still-positive-definite/sums-of-positive-definite-matrices-are-still-positive-definite/</guid>
       <description>For a matrix \(A\), the notation \(A\succeq0\) and \(A\succ0\) when \(A\) is often used to denote positive semi-definite (PSD) or positive definite (PD) matrices, respectively. , we can prove that the sum of two PD matrices is also PD. A very similar approach can be used to prove the sum of two PSD matrices is also PSD.
- Let both \(A\) and \(B\) be \(d \times d\) matrices. Also, let \(A \succ 0\) and \(B \succ 0\).</description>
+\(\textbf{Proof:}\) Let both \(A\) and \(B\) be \(d \times d\) matrices. Also, let \(A \succ 0\) and \(B \succ 0\).</description>
     </item>
     
     <item>
